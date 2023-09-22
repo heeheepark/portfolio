@@ -32,7 +32,9 @@ const Profile = () => {
             </div>
             <div>
               <span className="cate-name">Email</span>
-              <span className="cate-content">pjh9641@gmail.com</span>
+              <a href="mailto:pjh9641@gmail.com">
+                <span className="cate-content">pjh9641@gmail.com</span>
+              </a>
             </div>
             <div>
               <a href="/">Github</a>

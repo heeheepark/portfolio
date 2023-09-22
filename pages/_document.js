@@ -10,7 +10,7 @@ export default function Document() {
           content="프론트엔드 개발자 박주희 포트폴리오"
         />
       </Head>
-      <body>
+      <body className="relative">
         <Main />
         <NextScript />
       </body>

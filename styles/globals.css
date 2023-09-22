@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply overflow-hidden;
+  @apply w-screen h-screen scrollbar-hide;
 }
 
 .bg-primary {
@@ -49,12 +49,6 @@ p {
 
 .inner {
   @apply h-screen;
-}
-
-.title-pic {
-  /* background: url(../public/jean-carlo-emer-kz0nY0Q-1Ow-unsplash.jpg) no-repeat;
-  background-size: cover;
-  background-position: -10px -300px; */
 }
 
 .cate-name {
