@@ -26,29 +26,23 @@ export default function Home() {
 
   return (
     <Layout>
-      <section className="inner title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-slate-300">
-        <div className="container w-screen h-screen flex flex-col items-center justify-center">
+      <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
+        <div className="title w-screen h-screen flex flex-col items-center justify-center">
           <div className="flex px-5 py-24 md:flex-row flex-col items-center">
             <MainTitle />
           </div>
         </div>
-      </section>
-      <section className="inner title-pic min-h-screen text-gray-600 body-font bg-slate-400 flex flex-col items-center justify-center">
-        <div className="container w-screen h-screen flex flex-col items-center justify-center">
+        <div className="w-screen h-screen flex flex-col items-center justify-center bg-white">
           <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
             <Profile />
           </div>
         </div>
-      </section>
-      <section className="inner title-pic min-h-screen text-gray-600 body-font bg-slate-500 flex flex-col items-center justify-center">
-        <div className="container w-screen h-screen flex flex-row items-center justify-center">
+        <div className="w-screen h-screen flex flex-row items-center justify-center bg-slate-500">
           <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
             <ProjectPreview />
           </div>
         </div>
-      </section>
-      <section className="inner title-pic min-h-screen text-gray-600 body-font bg-slate-100 flex flex-col items-center justify-center">
-        <div className="container w-screen h-screen flex flex-row items-center justify-center">
+        <div className="w-screen h-screen flex flex-row items-center justify-center bg-slate-200">
           <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
             <Skills />
           </div>

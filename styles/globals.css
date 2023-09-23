@@ -47,10 +47,22 @@ p {
   @apply text-slate-500 dark:text-slate-400;
 }
 
-.inner {
-  @apply h-screen;
+.cate-name {
+  @apply inline-block w-32 font-semibold text-2xl;
 }
 
-.cate-name {
-  @apply inline-block w-24 font-bold text-lg;
+.cate-content {
+  @apply text-xl;
+}
+
+.title {
+  background: rgb(255, 219, 52);
+  background: radial-gradient(
+    at 50% 0%,
+    rgba(255, 219, 52, 1) 1%,
+    rgba(249, 252, 211, 1) 40%,
+    rgba(244, 244, 244, 1) 100%
+  );
+  background-position: 0px 0px;
+  animation: AnimationName 4s ease;
 }

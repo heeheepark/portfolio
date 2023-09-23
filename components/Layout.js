@@ -5,8 +5,8 @@ const Layout = ({ children }) => {
   return (
     <div className="bg-primary relative">
       <Header />
-      <div className="w-screen h-screen">{children}</div>
-      {/* <Footer /> */}
+      {children}
+      <Footer />
     </div>
   );
 };

@@ -4,19 +4,52 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import NameText from "./NameText";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 const MainTitle = () => {
+  const [turnOnLight, setTurnOnLight] = useState(false);
+
+  const handleLight = () => {
+    setTurnOnLight(!turnOnLight);
+  };
+
   useEffect(() => {
     AOS.init();
   });
 
   return (
     <>
+      <div>
+        {turnOnLight ? (
+          <img
+            src="/onbulb.png"
+            alt="켜진 전구"
+            className="absolute -top-10 left-[calc(50%-40px)] w-20"
+          />
+        ) : (
+          <img
+            src="/offbulb.png"
+            alt="꺼진 전구"
+            className="absolute -top-10 left-[calc(50%-40px)] w-20"
+          />
+        )}
+      </div>
+      <div
+        className="absolute -top-10 right-10 cursor-pointer transition ease-in hover:top-0 duration-300 flex flex-col items-center"
+        onClick={handleLight}
+      >
+        <img src="/lightwhite.png" alt="" className="w-5 mb-4" />
+        <div className="text-white">
+          <FontAwesomeIcon icon={faAnglesDown} className="mr-1" />
+          <span>Turn on a light</span>
+        </div>
+      </div>
       <div
         data-aos="fade-up"
         className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 leading-8 items-center text-center"
       >
-        <h2 className="text-8xl font-black leading-normal">
+        <h2 className="text-8xl font-black leading-normal mt-32">
           <span className="block">배움을 즐기는</span>
           <span className="inline-block mr-20">프론트엔드 개발자</span>
           <div className="inline-block relative w-72">
