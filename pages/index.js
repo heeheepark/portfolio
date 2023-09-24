@@ -31,8 +31,8 @@ export default function Home() {
         <FontAwesomeIcon icon={faAnglesUp} />
       </div>
       <Layout>
-        <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
-          <div className="title w-screen h-screen flex flex-col items-center justify-center">
+        <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center">
+          <div className="relative title w-screen h-screen flex flex-col items-end justify-center pr-10 pt-20">
             <div className="flex px-5 py-24 md:flex-row flex-col items-center">
               <MainTitle />
             </div>

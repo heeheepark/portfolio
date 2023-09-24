@@ -57,14 +57,14 @@ p {
 
 .title {
   /* background: rgb(255, 219, 52); */
-  background: radial-gradient(
+  /* background: radial-gradient(
     at 50% 0%,
     rgb(255, 227, 101) 0%,
     rgba(254, 255, 235, 1) 20%,
     rgba(255, 255, 255, 1) 50%
   );
   background-position: 0px 0px;
-  animation: AnimationName 4s ease;
+  animation: AnimationName 4s ease; */
 }
 
 .project-img {

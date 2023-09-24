@@ -20,7 +20,7 @@ const MainTitle = () => {
 
   return (
     <>
-      <div>
+      {/* <div>
         {turnOnLight ? (
           <img
             src="/onbulb.png"
@@ -44,11 +44,16 @@ const MainTitle = () => {
           <FontAwesomeIcon icon={faAnglesDown} className="mr-1" />
           <span>Turn on a light</span>
         </div>
-      </div>
+      </div> */}
       <div
         data-aos="fade-up"
-        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 leading-8 items-center text-center"
+        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-row items-end md:items-start md:text-left mb-16 md:mb-0 leading-8 text-center"
       >
+        <img
+          src="/joohee.png"
+          alt=""
+          className="absolute bottom-0 left-12 w-2/6 h-4/5 mr-20"
+        />
         <h2 className="flex flex-row">
           {/* <div className="text-9xl">💡</div> */}
           <div className="text-8xl font-black leading-normal mt-32">
@@ -62,6 +67,7 @@ const MainTitle = () => {
             </div>
           </div>
         </h2>
+
         <div className="flex justify-center"></div>
       </div>
     </>
