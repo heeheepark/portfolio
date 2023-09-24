@@ -3,7 +3,7 @@ import ToggleButton from "./ToggleButton";
 
 const Header = () => {
   return (
-    <header className="text-gray-600 body-font absolute">
+    <header className="text-gray-600 body-font fixed">
       <div className="flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link href="/" legacyBehavior>
           <a className="flex title-font font-medium items-center text-yellow-900 mb-4 md:mb-0">

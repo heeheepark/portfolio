@@ -20,7 +20,7 @@ const MainTitle = () => {
 
   return (
     <>
-      {/* <div>
+      <div>
         {turnOnLight ? (
           <img
             src="/onbulb.png"
@@ -44,30 +44,21 @@ const MainTitle = () => {
           <FontAwesomeIcon icon={faAnglesDown} className="mr-1" />
           <span>Turn on a light</span>
         </div>
-      </div> */}
+      </div>
       <div
         data-aos="fade-up"
-        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-row items-end md:items-start md:text-left mb-16 md:mb-0 leading-8 text-center"
+        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 leading-8 items-center text-center"
       >
-        <img
-          src="/joohee.png"
-          alt=""
-          className="absolute bottom-0 left-12 w-2/6 h-4/5 mr-20"
-        />
-        <h2 className="flex flex-row">
-          {/* <div className="text-9xl">💡</div> */}
-          <div className="text-8xl font-black leading-normal mt-32">
-            <p className="block">
-              <span className=" text-orange-500">배움</span>을 즐기는
-            </p>
-            <span className="inline-block mr-10 text">프론트엔드 개발자</span>
-            <div className="inline-block relative w-72 text-orange-600">
-              박주희{/* <NameText /> */}
-              {/* <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u> */}
-            </div>
+        <h2 className="text-8xl font-black leading-normal mt-32">
+          <p className="block">
+            <span className=" text-orange-500">배움</span>을 즐기는
+          </p>
+          <span className="inline-block mr-10 text">프론트엔드 개발자</span>
+          <div className="inline-block relative w-72 text-orange-600">
+            박주희{/* <NameText /> */}
+            {/* <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u> */}
           </div>
         </h2>
-
         <div className="flex justify-center"></div>
       </div>
     </>

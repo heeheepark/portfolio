@@ -27,12 +27,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="absolute bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
+      <div className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
         <FontAwesomeIcon icon={faAnglesUp} />
       </div>
       <Layout>
-        <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center">
-          <div className="relative title w-screen h-screen flex flex-col items-end justify-center pr-10 pt-20">
+        <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
+          <div className="title w-screen h-screen flex flex-col items-center justify-center">
             <div className="flex px-5 py-24 md:flex-row flex-col items-center">
               <MainTitle />
             </div>
