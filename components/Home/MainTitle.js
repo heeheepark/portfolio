@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 const MainTitle = () => {
-  const [turnOnLight, setTurnOnLight] = useState(false);
+  const [turnOnLight, setTurnOnLight] = useState(true);
 
   const handleLight = () => {
     setTurnOnLight(!turnOnLight);
@@ -50,11 +50,13 @@ const MainTitle = () => {
         className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 leading-8 items-center text-center"
       >
         <h2 className="text-8xl font-black leading-normal mt-32">
-          <span className="block">배움을 즐기는</span>
-          <span className="inline-block mr-20">프론트엔드 개발자</span>
+          <p className="block">
+            <span className=" text-amber-500">배움</span>을 즐기는
+          </p>
+          <span className="inline-block mr-10 text">프론트엔드 개발자</span>
           <div className="inline-block relative w-72">
-            <NameText />
-            <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u>
+            박주희{/* <NameText /> */}
+            {/* <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u> */}
           </div>
         </h2>
         <div className="flex justify-center"></div>

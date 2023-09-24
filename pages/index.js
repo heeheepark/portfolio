@@ -5,8 +5,7 @@ import Animation from "@/components/Home/Animation";
 import Profile from "@/components/Home/Profile";
 import Skills from "@/components/Home/Skills";
 import MainTitle from "@/components/Home/MainTitle";
-import ProjectPreview from "@/components/Home/ProjectPreView";
-import { useEffect, useRef } from "react";
+import ProjectPreview from "@/components/Home/ProjectPreview";
 
 const inter = Inter({ subsets: ["latin"] });
 
