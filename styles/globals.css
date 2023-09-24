@@ -40,7 +40,7 @@ footer {
 }
 
 a {
-  @apply text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-50;
+  @apply text-black hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-50;
 }
 
 p {
@@ -56,13 +56,17 @@ p {
 }
 
 .title {
-  background: rgb(255, 219, 52);
+  /* background: rgb(255, 219, 52); */
   background: radial-gradient(
     at 50% 0%,
-    rgba(255, 219, 52, 1) 1%,
-    rgba(249, 252, 211, 1) 40%,
-    rgba(244, 244, 244, 1) 100%
+    rgba(255, 229, 109, 1) 0%,
+    rgba(254, 255, 235, 1) 59%,
+    rgba(255, 255, 255, 1) 100%
   );
   background-position: 0px 0px;
   animation: AnimationName 4s ease;
+}
+
+.project-img {
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
 }

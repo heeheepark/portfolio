@@ -37,8 +37,8 @@ export default function Home() {
             <Profile />
           </div>
         </div>
-        <div className="w-screen h-screen flex flex-row items-center justify-center bg-slate-500">
-          <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="w-screen h-screen flex flex-row items-center justify-center bg-slate-100">
+          <div className="w-full flex md:flex-row flex-col items-center">
             <ProjectPreview />
           </div>
         </div>

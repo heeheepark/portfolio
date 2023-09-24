@@ -8,14 +8,22 @@ const Profile = () => {
   return (
     <>
       <div className="w-full">
-        <h3 className="text-center text-5xl font-bold mb-32 text-yellow-800">
+        <h3
+          className="text-center text-5xl font-bold mb-32 text-yellow-800"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           Profile
         </h3>
         <div className="w-full flex justify-center gap-32">
-          <div className="mr-10">
-            <img src="/profile.jpg" alt="" className="w-96" />
+          <div className="mr-10" data-aos="fade-up" data-aos-duration="500">
+            <img src="/profile.jpg" alt="" className="w-96 rounded-md" />
           </div>
-          <div className="flex flex-col gap-5">
+          <div
+            className="flex flex-col gap-5"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
             <div>
               <span className="cate-name">Name</span>
               <span className="cate-content">박주희(Joohee Park)</span>
@@ -53,7 +61,7 @@ const Profile = () => {
                 </span>
               </a>
             </div>
-            <div className="flex items-center gap-8 mt-2">
+            <div className="flex items-center gap-8 mt-6">
               <a href="/" className="flex items-center">
                 <img src="/github.png" alt="" className="w-8 mr-3" />
                 <span className="font-semibold text-2xl">Github</span>
