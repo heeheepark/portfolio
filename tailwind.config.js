@@ -15,6 +15,9 @@ module.exports = {
       scale: {
         101: "1.01",
       },
+      lineHeight: {
+        "extra-loose": "2.2",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

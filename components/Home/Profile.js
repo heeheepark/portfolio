@@ -9,7 +9,7 @@ const Profile = () => {
     <>
       <div className="w-full">
         <h3
-          className="text-center text-5xl font-bold mb-32 text-yellow-800"
+          className="text-center text-5xl font-bold mb-32 text-orange-600"
           data-aos="fade-up"
           data-aos-duration="500"
         >
