@@ -15,7 +15,7 @@ const Profile = () => {
         >
           Profile
         </h3>
-        <div className="w-full flex justify-center gap-32">
+        <div className="w-full flex justify-center gap-20">
           <div className="mr-10" data-aos="fade-up" data-aos-duration="500">
             <img src="/profile.jpg" alt="" className="w-96 rounded-md" />
           </div>

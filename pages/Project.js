@@ -60,7 +60,7 @@ const Project = () => {
               <div className="inline-block">
                 <div className="inline-block">
                   <div className="mb-4">
-                    <h5 className="text-3xl font-bold mr-2 inline-block">
+                    <h5 className="text-3xl font-extrabold mr-2 inline-block">
                       고등학교 성적관리 서비스(관리자)
                     </h5>
                     <span className="inline-block bg-yellow-300 px-2">

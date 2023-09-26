@@ -34,9 +34,12 @@ const ProjectPreview = () => {
         </h3>
         <div className="container m-auto" data-aos="fade-up">
           <div className="flex flex-wrap gap-10 justify-center items-center">
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            <Link
+              href="/project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>Back-end 협업</u>
                   <span className="text-white text-xl font-bold">
@@ -45,10 +48,13 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/hischool-admin.png" alt="" className="w-full h-full" />
-            </div>
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            </Link>
+            <Link
+              href="/project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>Back-end 협업</u>
                   <span className="text-white text-xl font-bold">
@@ -57,10 +63,13 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/hischool.png" alt="" className="w-full h-full" />
-            </div>
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            </Link>
+            <Link
+              href="/project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>Back-end 협업</u>
                   <span className="text-white text-xl font-bold">
@@ -69,10 +78,13 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/travel-todo.png" alt="" className="w-full h-full" />
-            </div>
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            </Link>
+            <Link
+              href="project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>Front-end 협업</u>
                   <span className="text-white text-xl font-bold">
@@ -81,10 +93,13 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/samsung.png" alt="" className="w-full h-full" />
-            </div>
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            </Link>
+            <Link
+              href="/project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>개인 프로젝트</u>
                   <span className="text-white text-xl font-bold">
@@ -93,10 +108,13 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/daegu-city.png" alt="" className="w-full h-full" />
-            </div>
-            <div className="w-1/4 h-72 bg-slate-300 relative cursor-pointer">
-              <div>
-                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-70"></div>
+            </Link>
+            <Link
+              href="project"
+              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+            >
+              <div className="absolute w-full h-full opacity-0 hover:opacity-100">
+                <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
                 <div className="absolute left-5 bottom-6 text-white flex flex-col z-9">
                   <u>개인 프로젝트</u>
                   <span className="text-white text-xl font-bold">
@@ -105,7 +123,7 @@ const ProjectPreview = () => {
                 </div>
               </div>
               <img src="/interpark.png" alt="" className="w-full h-full" />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

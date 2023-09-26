@@ -5,9 +5,9 @@ import Animation from "@/components/Home/Animation";
 import Profile from "@/components/Home/Profile";
 import Skills from "@/components/Home/Skills";
 import MainTitle from "@/components/Home/MainTitle";
-import ProjectPreview from "@/components/Home/ProjectPreview";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
+import ProjectPreview from "@/components/Home/ProjectPreView";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
+      <div className="animate-bounce fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
         <FontAwesomeIcon icon={faAnglesUp} />
       </div>
       <Layout>
