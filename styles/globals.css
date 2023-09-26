@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-screen h-screen scrollbar-hide;
+  @apply w-screen h-screen;
 }
 
 .bg-primary {
@@ -55,7 +55,7 @@ p {
   @apply text-xl;
 }
 
-.title {
+.title-white {
   /* background: rgb(255, 219, 52); */
   background: radial-gradient(
     at 50% 0%,
@@ -64,7 +64,19 @@ p {
     rgba(255, 255, 255, 1) 50%
   );
   background-position: 0px 0px;
+  opacity: 1;
   animation: AnimationName 4s ease;
+}
+
+.title-white::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* background: url("/white-background.jpg") no-repeat;
+  background-size: cover; */
 }
 
 .project-img {
@@ -126,4 +138,37 @@ p {
   background: #edf1ff;
   border-radius: 0.5em;
   padding: 20px;
+}
+
+.title-black {
+  background: url("/black-background3.jpg") no-repeat;
+  background-color: black;
+  background-size: cover;
+  position: relative;
+}
+.title-black::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background-color: black;
+}
+
+/* .title-white {
+  background: white;
+} */
+
+.light {
+  transition: all 0.3s;
+}
+
+.light-switch {
+  filter: brightness(0);
+}
+
+.off-light {
+  opacity: 0.1;
 }

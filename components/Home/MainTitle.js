@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 const MainTitle = () => {
-  const [turnOnLight, setTurnOnLight] = useState(true);
+  const [turnOnLight, setTurnOnLight] = useState(false);
 
   const handleLight = () => {
     setTurnOnLight(!turnOnLight);
@@ -19,7 +19,11 @@ const MainTitle = () => {
   });
 
   return (
-    <>
+    <div
+      className={`${
+        turnOnLight ? "title-white" : "title-black"
+      } w-screen h-screen`}
+    >
       <div>
         {turnOnLight ? (
           <img
@@ -31,37 +35,62 @@ const MainTitle = () => {
           <img
             src="/offbulb.png"
             alt="꺼진 전구"
-            className="absolute -top-10 left-[calc(50%-40px)] w-20"
+            className="off-light absolute -top-10 left-[calc(50%-40px)] w-20"
           />
         )}
       </div>
       <div
-        className="absolute -top-10 right-10 cursor-pointer transition ease-in hover:top-0 duration-300 flex flex-col items-center"
+        className="light absolute -top-10 right-10 cursor-pointer transition ease-in hover:top-0 duration-300 flex flex-col items-center"
         onClick={handleLight}
       >
-        <img src="/lightwhite.png" alt="" className="w-5 mb-4" />
-        <div className="text-white">
+        <img
+          src="/lightwhite.png"
+          alt=""
+          className={`${turnOnLight && "light-switch"} w-5 mb-4`}
+        />
+        <div className={`${turnOnLight ? "text-black" : "text-white"}`}>
           <FontAwesomeIcon icon={faAnglesDown} className="mr-1" />
-          <span>Turn on a light</span>
+          <span>{`Turn ${turnOnLight ? "off" : "on"} a light`}</span>
         </div>
       </div>
-      <div
-        data-aos="fade-up"
-        className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 leading-8 items-center text-center"
-      >
-        <h2 className="text-8xl font-black leading-normal mt-32">
-          <p className="block">
-            <span className=" text-orange-500">배움</span>을 즐기는
-          </p>
-          <span className="inline-block mr-10 text">프론트엔드 개발자</span>
-          <div className="inline-block relative w-72 text-orange-600">
-            박주희{/* <NameText /> */}
-            {/* <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u> */}
-          </div>
-        </h2>
-        <div className="flex justify-center"></div>
-      </div>
-    </>
+
+      {turnOnLight ? (
+        <div
+          className="flex justify-center items-center w-full h-full"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <h2 className="text-8xl font-black leading-normal mt-32">
+            <p className="block">
+              <span className=" text-orange-500">배움</span>을 즐기는
+            </p>
+            <span className="inline-block mr-10 text-black">
+              프론트엔드 개발자
+            </span>
+            <div className="inline-block relative w-72 text-orange-600">
+              박주희{/* <NameText /> */}
+              {/* <u className="absolute -left-3 bottom-0 inline-block w-80 border-black border-b-8"></u> */}
+            </div>
+          </h2>
+        </div>
+      ) : (
+        <div className="flex w-full h-full pl-32 pt-16">
+          <h2
+            className="text-8xl font-black leading-normal mt-32 relative z-99"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p className="block mr-10 text-gray-300">Front-end Developer</p>
+            <span className="block relative text-white text-9xl">
+              JooHee Park
+            </span>
+            {/* <span className="text-2xl text-white font-normal">
+              Please turn on a light
+            </span> */}
+          </h2>
+        </div>
+      )}
+    </div>
   );
 };
 export default MainTitle;

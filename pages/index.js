@@ -1,7 +1,4 @@
 import { Inter } from "next/font/google";
-import Layout from "@/components/Layout";
-import Link from "next/link";
-import Animation from "@/components/Home/Animation";
 import Profile from "@/components/Home/Profile";
 import Skills from "@/components/Home/Skills";
 import MainTitle from "@/components/Home/MainTitle";
@@ -27,33 +24,31 @@ export default function Home() {
 
   return (
     <>
-      <div className="animate-bounce fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
+      <div className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
         <FontAwesomeIcon icon={faAnglesUp} />
       </div>
-      <Layout>
-        <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
-          <div className="title w-screen h-screen flex flex-col items-center justify-center">
-            <div className="flex px-5 py-24 md:flex-row flex-col items-center">
-              <MainTitle />
-            </div>
+      <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
+        <div className="title w-screen h-screen flex flex-col items-center justify-center">
+          <div className="flex px-5 py-24 md:flex-row flex-col items-center">
+            <MainTitle />
           </div>
-          <div className="w-screen h-screen flex flex-col items-center justify-center bg-white">
-            <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
-              <Profile />
-            </div>
+        </div>
+        <div className="w-screen h-screen flex flex-col items-center justify-center bg-white">
+          <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
+            <Profile />
           </div>
-          <div className="w-screen h-screen flex flex-row items-center justify-center bg-gray-100">
-            <div className="w-full flex md:flex-row flex-col items-center">
-              <ProjectPreview />
-            </div>
+        </div>
+        <div className="w-screen h-screen flex flex-row items-center justify-center bg-gray-100">
+          <div className="w-full flex md:flex-row flex-col items-center">
+            <ProjectPreview />
           </div>
-          <div className="w-screen h-screen flex flex-row items-center justify-center bg-white">
-            <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
-              <Skills />
-            </div>
+        </div>
+        <div className="w-screen h-screen flex flex-row items-center justify-center bg-white">
+          <div className="w-full flex px-5 py-24 md:flex-row flex-col items-center">
+            <Skills />
           </div>
-        </section>
-      </Layout>
+        </div>
+      </section>
     </>
   );
 }
