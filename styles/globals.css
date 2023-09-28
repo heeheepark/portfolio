@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-screen h-screen;
+  @apply w-screen h-screen scrollbar-hide;
 }
 
 .bg-primary {
@@ -89,7 +89,7 @@ p {
   position: relative;
   background: #edf1ff;
   border-radius: 0.5em;
-  padding: 20px;
+  padding: 1%;
 }
 
 .speech-bubble-react:after,
@@ -114,7 +114,7 @@ p {
   position: relative;
   background: #ffefaa;
   border-radius: 0.5em;
-  padding: 20px;
+  padding: 1%;
 }
 
 .speech-bubble-javascript:after,
@@ -137,7 +137,7 @@ p {
   position: relative;
   background: #edf1ff;
   border-radius: 0.5em;
-  padding: 20px;
+  padding: 1%;
 }
 
 .title-black {

@@ -25,9 +25,9 @@ const ProjectPreview = () => {
   };
   return (
     <>
-      <div className="w-full">
+      <div className="w-full h-full">
         <h3
-          className="text-center text-5xl font-bold mb-24 text-orange-600"
+          className="text-center text-5xl font-bold mb-16 text-orange-600"
           data-aos="fade-up"
         >
           Project
@@ -36,7 +36,7 @@ const ProjectPreview = () => {
           <div className="flex flex-wrap gap-10 justify-center items-center">
             <Link
               href="/project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
@@ -51,7 +51,7 @@ const ProjectPreview = () => {
             </Link>
             <Link
               href="/project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
@@ -66,7 +66,7 @@ const ProjectPreview = () => {
             </Link>
             <Link
               href="/project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
@@ -81,7 +81,7 @@ const ProjectPreview = () => {
             </Link>
             <Link
               href="project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
@@ -96,7 +96,7 @@ const ProjectPreview = () => {
             </Link>
             <Link
               href="/project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>
@@ -111,7 +111,7 @@ const ProjectPreview = () => {
             </Link>
             <Link
               href="project"
-              className="project-img w-1/4 h-72 bg-slate-300 relative cursor-pointer"
+              className="project-img w-1/4 h-2/4 bg-slate-300 relative cursor-pointer"
             >
               <div className="absolute w-full h-full opacity-0 hover:opacity-100">
                 <div className="absolute w-full h-full left-0 top-0 bg-black opacity-60"></div>

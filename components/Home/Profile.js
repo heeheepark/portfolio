@@ -9,13 +9,13 @@ const Profile = () => {
     <>
       <div className="w-full">
         <h3
-          className="text-center text-5xl font-bold mb-32 text-orange-600"
+          className="text-center text-5xl font-bold mb-16 text-orange-600"
           data-aos="fade-up"
           data-aos-duration="500"
         >
           Profile
         </h3>
-        <div className="w-full flex justify-center gap-32">
+        <div className="w-full flex justify-center items-center gap-32">
           <div className="mr-10" data-aos="fade-up" data-aos-duration="500">
             <img src="/profile.jpg" alt="" className="w-96 rounded-md" />
           </div>
