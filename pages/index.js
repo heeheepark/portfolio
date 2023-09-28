@@ -22,9 +22,19 @@ export default function Home() {
   //   };
   // }, []);
 
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
-      <div className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer">
+      <div
+        className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer"
+        onClick={handleToTop}
+      >
         <FontAwesomeIcon icon={faAnglesUp} />
       </div>
       <section className="title-pic min-h-screen text-gray-600 body-font flex flex-col items-start justify-center bg-black">
