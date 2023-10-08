@@ -13,7 +13,9 @@ const Project = () => {
   return (
     <>
       <header>
-        <Link href="/">joohee's portfolio</Link>
+        <Link href="/" className="">
+          joohee's portfolio
+        </Link>
       </header>
       <div
         className="fixed bottom-5 right-6 bg-slate-500 text-white w-10 h-10 text-center text-lg leading-extra-loose rounded-3xl z-50 cursor-pointer"

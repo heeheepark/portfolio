@@ -47,7 +47,11 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/hischool-admin.png" alt="" className="w-full h-full" />
+              <img
+                src="/hischool-admin.png"
+                alt="3차 프로젝트 썸네일"
+                className="w-full h-full"
+              />
             </Link>
             <Link
               href="/project"
@@ -62,7 +66,11 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/hischool.png" alt="" className="w-full h-full" />
+              <img
+                src="/hischool.png"
+                alt="2차 프로젝트 썸네일"
+                className="w-full h-full"
+              />
             </Link>
             <Link
               href="/project"
@@ -77,7 +85,11 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/travel-todo.png" alt="" className="w-full h-full" />
+              <img
+                src="/travel-todo.png"
+                alt="1차 프로젝트 썸네일"
+                className="w-full h-full"
+              />
             </Link>
             <Link
               href="project"
@@ -92,7 +104,12 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/samsung.png" alt="" className="w-full h-full" />
+              <img
+                src="/samsung.png"
+                alt="삼성 디스플레이 뉴스룸 썸네일"
+                className="w-full h-full"
+                style={{ height: "216px" }}
+              />
             </Link>
             <Link
               href="/project"
@@ -107,7 +124,11 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/daegu-city.png" alt="" className="w-full h-full" />
+              <img
+                src="/daegu-city.png"
+                alt="대구광역시청 썸네일"
+                className="w-full h-full"
+              />
             </Link>
             <Link
               href="project"
@@ -122,7 +143,11 @@ const ProjectPreview = () => {
                   </span>
                 </div>
               </div>
-              <img src="/interpark.png" alt="" className="w-full h-full" />
+              <img
+                src="/interpark.png"
+                alt="인터파크 썸네일"
+                className="w-full h-full"
+              />
             </Link>
           </div>
         </div>

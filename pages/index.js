@@ -4,7 +4,7 @@ import Skills from "@/components/Home/Skills";
 import MainTitle from "@/components/Home/MainTitle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
-import ProjectPreview from "@/components/Home/ProjectPreview";
+import ProjectPreview from "@/components/Home/ProjectPreView";
 
 const inter = Inter({ subsets: ["latin"] });
 
