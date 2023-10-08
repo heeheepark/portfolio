@@ -40,7 +40,7 @@ const Project = () => {
               <div className="project-img w-2/4 h-80">
                 <img
                   src="/hischool-admin.png"
-                  alt=""
+                  alt="3차 프로젝트 썸네일"
                   className="w-full h-full mb-3"
                 />
                 <div className="flex items-center gap-2 h-10">
@@ -51,8 +51,9 @@ const Project = () => {
                     <span>배포 페이지</span>
                   </a>
                   <a
-                    href="/"
+                    href="https://github.com/heeheepark/hischool-admin"
                     className="bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                    target="_blank"
                   >
                     <span>Github</span>
                   </a>
@@ -147,7 +148,7 @@ const Project = () => {
               <div className="project-img w-2/4 h-80">
                 <img
                   src="/hischool.png"
-                  alt=""
+                  alt="2차 프로젝트 썸네일"
                   className="w-full h-full mb-3"
                 />
                 <div className="flex items-center gap-2 h-10">
@@ -158,8 +159,9 @@ const Project = () => {
                     <span>배포 페이지</span>
                   </a>
                   <a
-                    href="/"
+                    href="/https://github.com/heeheepark/hischool"
                     className="bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                    target="_blank"
                   >
                     <span>Github</span>
                   </a>
@@ -258,7 +260,7 @@ const Project = () => {
               <div className="project-img w-2/4 h-80">
                 <img
                   src="/travel-todo.png"
-                  alt=""
+                  alt="1차 프로젝트 썸네일"
                   className="w-full h-full mb-3"
                 />
                 <div className="flex items-center gap-2 h-10">
@@ -269,8 +271,9 @@ const Project = () => {
                     <span>배포 페이지</span>
                   </a>
                   <a
-                    href="/"
+                    href="/https://github.com/heeheepark/travel-todo"
                     className="bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                    target="_blank"
                   >
                     <span>Github</span>
                   </a>
@@ -356,6 +359,112 @@ const Project = () => {
                       </span>
                       <span className="text-lg">
                         인트로, 캘린더, 일정 등록 및 수정, 프로젝트 소개 페이지
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex gap-14 justify-center">
+              <div className="project-img w-2/4 h-80">
+                <img
+                  src="/samsung.png"
+                  alt="삼성 디스플레이 뉴스룸 썸네일"
+                  className="w-full h-full mb-3"
+                />
+                <div className="flex items-center gap-2 h-10">
+                  <a
+                    href="/"
+                    className=" bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                  >
+                    <span>배포 페이지</span>
+                  </a>
+                  <a
+                    href="/https://github.com/heeheepark/samsung-display-newsroom-clone-coding"
+                    className="bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                    target="_blank"
+                  >
+                    <span>Github</span>
+                  </a>
+                  <a
+                    href="/"
+                    className="bg-blue-100 px-3 py-2 rounded-md cursor-pointer"
+                  >
+                    <span>Notion</span>
+                  </a>
+                </div>
+              </div>
+              <div className="w-3/4 inline-block">
+                <div className="inline-block">
+                  <div className="mb-4">
+                    <h5 className="text-3xl font-extrabold mr-2 inline-block">
+                      삼성 디스플레이 뉴스룸 클론코딩
+                    </h5>
+                    <span className="inline-block bg-yellow-300 px-2">
+                      프론트엔드 팀장
+                    </span>
+                  </div>
+                  <p className="inline-block text-lg mb-3">
+                    프론트엔드 협업으로 작업한 프로젝트입니다. <br />
+                    삼성 디스플레이 뉴스룸 페이지를 클론코딩했습니다. <br />
+                  </p>
+                </div>
+                <ul className="">
+                  {/* <li className="flex mb-2">
+                    <span className="cate-name">주요 기능</span>
+                    <ul className="text-lg inline-block">
+                      <li>
+                        <span className="inline-block mr-1">1. Map</span>
+                        <span className="block ml-3">
+                          - 지역별 여행 기록 표시
+                        </span>
+                        <span className="block ml-3">
+                          - 여행 빈도에 따른 색상 구분
+                        </span>
+                        <span className="block ml-3">
+                          - 예정・종료된 일정 필터링
+                        </span>
+                      </li>
+                      <li>
+                        <span className="inline-block mr-1">2. Calendar</span>
+                        <span className="block ml-3">
+                          - 여행 일정을 한 눈에 확인 가능
+                        </span>
+                        <span className="block ml-3">
+                          - 일정 색상 커스터마이징 기능
+                        </span>
+                      </li>
+                      <li>
+                        <span className="block">3. 일정 등록</span>
+                        <span className="block ml-3">
+                          - 일정 및 체크리스트 등록
+                        </span>
+                        <span className="block ml-3">
+                          - 일정 시작 후 리뷰 등록 가능
+                        </span>
+                      </li>
+                    </ul>
+                  </li> */}
+                  <li className="flex mb-2">
+                    <span className="cate-name">작업 기간</span>
+                    <span className="text-lg">
+                      2023. 05. 01. ~ 2023. 05. 17.(총 17일)
+                    </span>
+                  </li>
+                  <li className="flex items-start mb-2">
+                    <span className="cate-name">활용 기술</span>
+                    <span className="inline-block text-lg w-3/5">
+                      HTML5, CSS, JavaScript, Swiper
+                    </span>
+                  </li>
+                  <li className="flex mb-2">
+                    <span className="cate-name">작업 영역</span>
+                    <div>
+                      <span className="block text-lg">
+                        Github 및 Notion, Slack 관리
+                      </span>
+                      <span className="text-lg">
+                        Header, 최신 기사, YouTube 핫클립, 인기 기사
                       </span>
                     </div>
                   </li>
