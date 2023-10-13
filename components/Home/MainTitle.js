@@ -25,13 +25,7 @@ const MainTitle = () => {
       } w-screen h-screen`}
     >
       <div>
-        {turnOnLight ? (
-          <img
-            src="/onbulb.png"
-            alt="켜진 전구"
-            className="absolute -top-10 left-[calc(50%-40px)] w-20"
-          />
-        ) : (
+        {turnOnLight ? null : ( // /> //   className="absolute -top-10 left-[calc(50%-40px)] w-20" //   alt="켜진 전구" //   src="/onbulb.png" // <img
           <img
             src="/offbulb.png"
             alt="꺼진 전구"
@@ -56,7 +50,7 @@ const MainTitle = () => {
 
       {turnOnLight ? (
         <div
-          className="flex justify-center items-center w-full h-full"
+          className="flex ml-48 mt-48 w-full h-full"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

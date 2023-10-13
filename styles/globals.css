@@ -141,7 +141,7 @@ p {
 }
 
 .title-black {
-  background: url("/black-background3.jpg") no-repeat;
+  background: url("/black-background.jpg") no-repeat;
   background-color: black;
   background-size: cover;
   position: relative;
@@ -157,9 +157,12 @@ p {
   background-color: black;
 }
 
-/* .title-white {
-  background: white;
-} */
+.title-white {
+  background: url("/white-background.jpg") no-repeat;
+  background-size: 115%;
+  background-position: 50% 63%;
+  position: relative;
+}
 
 .light {
   transition: all 0.3s;
